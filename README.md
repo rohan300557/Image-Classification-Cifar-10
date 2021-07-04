@@ -11,7 +11,7 @@ In this project we are going to classify images from the Cifar-10 Dataset. In th
 
 This dataset consists of airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck as the objects.
 
-In below image we can see a random image from each classes.
+In below image we can see the random image from each classes.
 
 ![classes](https://github.com/rohan300557/Image-Classification-Cifar-10/blob/main/src/classes_plot.png)
 
@@ -31,6 +31,8 @@ After saving the model let's run Streamlit. To run the Streamlit web page we wil
 
     Streamlit run main.py
 Now on web app we will input the image, as shown below:
+
 ![input](https://github.com/rohan300557/Image-Classification-Cifar-10/blob/main/src/web_page_1.png)
+
 Now as we gave image as input we recived the output of Airplane as shown in below image. We gave Airplane image as input and we can give any type image as input to predict it. So, it seems are model has predicted well.
 ![output](https://github.com/rohan300557/Image-Classification-Cifar-10/blob/main/src/web_page_2.png)
