@@ -12,10 +12,12 @@ In this project we are going to classify images from the Cifar-10 Dataset. In th
 This dataset consists of airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck as the objects.
 
 In below image we can see a random image from each classes.
+
 ![classes](https://github.com/rohan300557/Image-Classification-Cifar-10/blob/main/src/classes_plot.png)
 
 After training the model I have plotted the graph between accuracy and val_accuracy. 
 In grapgh accuracy is the accuracy of a batch of training data and val_accuracy is the accuracy of a batch of testing data (data that have never been 'seen' by the model). So, it is common for validation accuracy to be lower than accuracy. 
+
 ![accuracy plot](https://github.com/rohan300557/Image-Classification-Cifar-10/blob/main/src/accuracy_graph.png)
 
 The above curve shows the accuacry and validation accuracy during the training of our model. The accuracy becomes stable after some epochs (at approx 40-50 epochs).
