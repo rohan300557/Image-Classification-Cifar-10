@@ -1,4 +1,4 @@
 streamlit == 0.84.0
 Pillow
 Tensorflow
-opencv
+opencv-python
